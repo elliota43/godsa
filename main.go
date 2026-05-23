@@ -16,4 +16,10 @@ func main() {
 	bubbleSort(unsorted)
 
 	fmt.Println("Sorted:", alreadySorted)
+
+	nums := []int{-2, 1, -3, 4, -1, 2, 1, -5, 4}
+
+	largestSubarray := kadane(nums)
+
+	fmt.Println("kadane: ", largestSubarray)
 }
